@@ -9,7 +9,7 @@ int ThirdDigit(int a)
     }
     else
     {
-        
+        return 3;
     }
 
 
