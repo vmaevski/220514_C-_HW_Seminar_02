@@ -3,16 +3,16 @@
 // Будем считать, что суббота - день с номером 6, воскресенье - 7.
 
 // int DayOff(int a)
-void DayOff(int a)
+void DayOff(int a) 
 {
     if (a == 6 | a == 7)
     {
-//        return ("YES!!!");
+        // return ("YES!!!"); // не возвращает строку
         Console.WriteLine($"{a} -> YES!!!");
     }
     else
     {
-//        return ("No(");
+        // return ("No("); // не возвращает строку
         Console.WriteLine($"{a} -> No(");
     }
 }
